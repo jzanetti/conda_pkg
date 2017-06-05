@@ -1,0 +1,24 @@
+package:
+    name: obsgrid
+    version: 3.8.0
+
+source:
+    fn: obsgrid.tar.gz
+    url: http://www2.mmm.ucar.edu/wrf/src/OBSGRID.tar.gz
+
+build:
+    number: '0'
+    detect_binary_files_with_prefix: 'true'
+    string: py27_0
+
+requirements:
+    build:
+        - gcc
+        - ncl
+        - netcdf
+        - netcdf-fortran
+    run:
+        - netcdf-fortran
+
+about:
+    home: http://ncl.ucar.edu/

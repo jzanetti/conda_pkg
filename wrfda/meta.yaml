@@ -12,7 +12,7 @@ build:
 requirements:
     build:
         - netcdf ==4.4.1.1
-        - netcdf-fortran ==4.4.4
+        - netcdf-fortran ==4.4.4 2
     run:
 
 about:
