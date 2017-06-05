@@ -1,0 +1,19 @@
+package:
+    name: wrf
+    version: 3.9.0
+
+source:
+    fn: wrf.tar.gz
+    url: http://www2.mmm.ucar.edu/wrf/src/WRFV3.9.TAR.gz
+
+build:
+    name: '0'
+
+requirements:
+    build:
+        - netcdf4
+        - netcdf-fortran
+    run:
+
+about:
+    home: http://www.mmm.ucar.edu

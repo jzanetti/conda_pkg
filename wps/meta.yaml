@@ -1,0 +1,23 @@
+package:
+    name: wps
+    version: 3.9.0
+
+source:
+    fn: WPSV3.9.TAR.gz
+    url: http://www2.mmm.ucar.edu/wrf/src/WPSV3.9.TAR.gz
+
+build:
+    name: '0'
+
+requirements:
+    build:
+        - netcdf ==4.4.1.1
+        - netcdf-fortran ==4.4.4
+        - jasper
+        - libpng
+        - zlib
+        - wrf
+    run:
+
+about:
+    home: http://www.mmm.ucar.edu

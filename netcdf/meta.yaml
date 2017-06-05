@@ -1,0 +1,17 @@
+package:
+    name: netcdf
+    version: 4.4.1.1
+
+source:
+    fn: netcdf-4.4.1.1.tar.gz
+    url: ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4.4.1.1.tar.gz
+
+build:
+    name: '0'
+
+requirements:
+    build:
+    run:
+
+about:
+    home: http://www.mmm.ucar.edu

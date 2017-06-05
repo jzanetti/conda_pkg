@@ -1,0 +1,18 @@
+package:
+    name: netcdf-fortran
+    version: 4.4.4
+
+source:
+    fn: netcdf-fortran-4.4.4.tar.gz
+    url: ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-fortran-4.4.4.tar.gz
+
+build:
+    name: '0'
+
+requirements:
+    build:
+        - netcdf ==4.4.1.1
+    run:
+
+about:
+    home: http://www.mmm.ucar.edu
