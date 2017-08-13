@@ -1,0 +1,23 @@
+package:
+    name: wrf
+    version: 3.9.0
+source:
+    fn: WRFV3.9.TAR.gz
+    url: file://home/jzanetti/Downloads/WRFV3.9.TAR.gz
+
+build:
+    number: '3.9.0'
+    string: 'intel'
+
+requirements:
+    build:
+        - netcdf-fortran 4.4.4 intel
+        - netcdf 4.4.1.1 intel
+        - openmpi
+    run:
+        - netcdf-fortran ==4.4.4 intel
+        - netcdf ==4.4.1.1 intel
+        - openmpi
+about:
+    home: http://www2.mmm.ucar.edu/wrf
+

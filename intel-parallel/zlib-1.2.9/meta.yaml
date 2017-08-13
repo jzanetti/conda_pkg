@@ -1,0 +1,19 @@
+package:
+    name: zlib
+    version: 1.2.9
+
+source:
+    fn: zlib-1.2.9.tar.gz
+    url: file://home/jzanetti/Downloads/zlib-1.2.9.tar.gz
+
+build:
+    number: '1.2.9'
+    string: 'intel'
+
+requirements:
+    build:
+    run:
+
+about:
+    home: http://www.zlib.net
+    

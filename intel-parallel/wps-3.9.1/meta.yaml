@@ -1,0 +1,31 @@
+package:
+    name: wps
+    version: 3.9.0.1
+source:
+    fn: WPSV3.9.0.1.TAR.gz
+    url: file://home/jzanetti/Downloads/WPSV3.9.0.1.TAR.gz
+
+build:
+    number: '3.9.0.1'
+    string: 'intel'
+
+requirements:
+    build:
+        - netcdf-fortran 4.4.4 intel
+        - netcdf 4.4.1.1 intel
+        - openmpi
+        - wrf 3.9.0 intel
+        - jasper 2.0.12 intel
+        - zlib 1.2.9 intel
+        - libpng 1.6.27 intel
+    run:
+        - netcdf-fortran ==4.4.4 intel
+        - netcdf ==4.4.1.1 intel
+        - openmpi
+        - wrf 3.9.0 intel
+        - jasper 2.0.12 intel
+        - zlib 1.2.9 intel
+        - libpng 1.6.27 intel
+about:
+    home: http://www2.mmm.ucar.edu/wrf
+

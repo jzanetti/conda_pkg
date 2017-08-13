@@ -1,0 +1,15 @@
+Modelling System Installation Package v0.0.1 (dm+sm version)
+
+Author: Sijin Zhang
+Company: New Zealand Meteorological Service
+
+Compiler: Intel parallel_studio_xe_2017_update4 (cluster version)
+
+Components:
+1. jasper 		2.0.12
+2. libpng 		1.6.27
+3. netcdf 		4.4.1.1
+4. netcdf-fortran	4.4.4
+5. zlib			1.2.9
+6. wrf			3.9.0 openmp+mpi (dm+sm)
+7. wps			3.9.1 openmp+mpi (dm+sm)

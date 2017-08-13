@@ -1,0 +1,20 @@
+package:
+    name: netcdf-fortran
+    version: 4.4.4
+
+source:
+    fn: netcdf-fortran-4.4.4.tar.gz
+    url: file://home/jzanetti/Downloads/netcdf-fortran-4.4.4.tar.gz
+
+build:
+    number: '4.4.4'
+    string: 'intel'
+
+requirements:
+    build:
+        - netcdf ==4.4.1.1 intel
+    run:
+
+about:
+    home: http://www2.mmm.ucar.edu/wrf
+    

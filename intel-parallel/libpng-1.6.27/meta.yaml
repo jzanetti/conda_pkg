@@ -1,0 +1,20 @@
+package:
+    name: libpng
+    version: 1.6.27
+
+source:
+    fn: libpng-1.6.27.tar.gz
+    url: file://home/jzanetti/Downloads/libpng-1.6.27.tar.gz
+
+build:
+    number: '1.6.27'
+    string: 'intel'
+
+requirements:
+    build:
+        - zlib ==1.2.9 intel
+    run:
+
+about:
+    home: http://www2.mmm.ucar.edu/wrf
+    
