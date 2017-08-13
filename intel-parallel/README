@@ -12,4 +12,4 @@ Components:
 4. netcdf-fortran	4.4.4
 5. zlib			1.2.9
 6. wrf			3.9.0 openmp+mpi (dm+sm)
-7. wps			3.9.1 openmp+mpi (dm+sm)
+7. wps			3.9.1 openmp     (dm)
