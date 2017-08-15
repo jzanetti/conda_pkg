@@ -5,11 +5,15 @@ Company: New Zealand Meteorological Service
 
 Compiler: Intel parallel_studio_xe_2017_update4 (cluster version)
 
+for home: 	export INTEL=/opt/intel
+for metservice: export INTEL=/home/szhang/Programs/intel
+
 Components:
 1. jasper 		2.0.12
 2. libpng 		1.6.27
 3. netcdf 		4.4.1.1
 4. netcdf-fortran	4.4.4
 5. zlib			1.2.9
+6. hdf5                 1.8.19
 6. wrf			3.9.0 openmp+mpi (dm+sm)
 7. wps			3.9.1 openmp     (dm)

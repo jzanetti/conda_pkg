@@ -9,6 +9,8 @@ source:
 build:
     number: '2.0.12'
     string: 'intel'
+    script_env:
+        - INTEL
 
 requirements:
     build:

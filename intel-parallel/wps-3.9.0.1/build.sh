@@ -10,7 +10,6 @@ export JASPERINC=$CONDA_PREFIX/jasper-2.0.12/include
 export JASPERLIB="$JASPERLIB -L$CONDA_PREFIX/libpng-1.6.27/lib -L$CONDA_PREFIX/zlib-1.2.9/lib"
 export JASPERINC="$JASPERINC -I$CONDA_PREFIX/libpng-1.6.27/include -I$CONDA_PREFIX/zlib-1.2.9/include"
 
-export INTEL=/opt/intel
 source $INTEL/bin/compilervars.sh intel64
 source $INTEL/compilers_and_libraries_2017.4.196/linux/mpi/intel64/bin/mpivars.sh
 export LD_LIBRARY_PATH=$INTEL/compilers_and_libraries_2017/linux/lib/intel64:$LD_LIBRARY_PATH

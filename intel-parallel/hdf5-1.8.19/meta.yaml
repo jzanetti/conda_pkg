@@ -1,0 +1,26 @@
+package:
+    name: hdf5
+    version: 1.8.19
+
+source:
+    fn: hdf5-1.8.19.tar
+    url: https://support.hdfgroup.org/ftp/HDF5/current18/src/hdf5-1.8.19.tar
+
+build:
+    number: '1.8.16'
+    string: 'intel'
+    script_env:
+        - INTEL
+
+requirements:
+    build:
+      - zlib ==1.2.9 intel
+      - cmake
+
+    run:
+      - intelpython
+      - zlib ==1.2.9 intel 
+
+about:
+    home: http://www2.mmm.ucar.edu/wrf
+    

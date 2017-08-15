@@ -10,7 +10,9 @@ export FFLAGS='-O3 -xHost -ip -no-prec-div -static-intel'
 export CPP='icc -E'
 export CXXCPP='icpc -E'
 
-./configure --prefix=$CONDA_PREFIX/zlib-1.2.9
+./configure --with-pthread=yes --enable-production --enable-cxx \
+            --disable-static \
+            --with-zlib=$CONDA_PREFIX/zlib-1.2.9 --prefix=$CONDA_PREFIX/hdf5-1.8.19
 make
 make check
 make install

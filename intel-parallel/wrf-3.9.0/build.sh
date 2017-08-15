@@ -9,7 +9,6 @@ export LD_LIBRARY_PATH=$NETCDF_C/lib:$LD_LIBRARY_PATH
 export JASPERLIB=$CONDA_PREFIX/jasper-2.0.12/lib
 export JASPERINC=$CONDA_PREFIX/jasper-2.0.12/include
 
-export INTEL=/opt/intel
 source $INTEL/bin/compilervars.sh intel64
 source $INTEL/compilers_and_libraries_2017.4.196/linux/mpi/intel64/bin/mpivars.sh
 

@@ -1,4 +1,4 @@
-source /opt/intel/bin/compilervars.sh intel64
+source $INTEL/bin/compilervars.sh intel64
 export CC=icc
 export CXX=icpc
 export CFLAGS='-O3 -xHost -ip -no-prec-div -static-intel'

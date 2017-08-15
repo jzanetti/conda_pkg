@@ -4,11 +4,13 @@ package:
 
 source:
     fn: zlib-1.2.9.tar.gz
-    url: file://home/jzanetti/Downloads/zlib-1.2.9.tar.gz
+    url: https://sourceforge.net/projects/libpng/files/zlib/1.2.9/zlib-1.2.9.tar.gz
 
 build:
     number: '1.2.9'
     string: 'intel'
+    script_env:
+        - INTEL
 
 requirements:
     build:

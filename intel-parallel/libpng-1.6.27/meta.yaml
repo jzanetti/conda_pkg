@@ -4,11 +4,13 @@ package:
 
 source:
     fn: libpng-1.6.27.tar.gz
-    url: file://home/jzanetti/Downloads/libpng-1.6.27.tar.gz
+    url: http://prdownloads.sourceforge.net/libpng/libpng-1.6.27.tar.gz
 
 build:
     number: '1.6.27'
     string: 'intel'
+    script_env:
+        - INTEL
 
 requirements:
     build:

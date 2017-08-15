@@ -4,11 +4,13 @@ package:
 
 source:
     fn: netcdf-fortran-4.4.4.tar.gz
-    url: file://home/jzanetti/Downloads/netcdf-fortran-4.4.4.tar.gz
+    url: ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-fortran-4.4.4.tar.gz
 
 build:
     number: '4.4.4'
     string: 'intel'
+    script_env:
+        - INTEL
 
 requirements:
     build:

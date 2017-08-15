@@ -4,14 +4,17 @@ package:
 
 source:
     fn: netcdf-4.4.1.1.tar.gz
-    url: file://home/jzanetti/Downloads/netcdf-4.4.1.1.tar.gz
+    url: ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4.4.1.1.tar.gz
 
 build:
     number: '4.4.1.1'
     string: 'intel'
+    script_env:
+        - INTEL
 
 requirements:
     build:
+       - hdf5 ==1.8.19 intel
     run:
 
 about:

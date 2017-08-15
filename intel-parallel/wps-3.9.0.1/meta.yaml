@@ -3,11 +3,13 @@ package:
     version: 3.9.0.1
 source:
     fn: WPSV3.9.0.1.TAR.gz
-    url: file://home/jzanetti/Downloads/WPSV3.9.0.1.TAR.gz
+    url: http://www2.mmm.ucar.edu/wrf/src/WPSV3.9.0.1.TAR.gz
 
 build:
     number: '3.9.0.1'
     string: 'intel'
+    script_env:
+        - INTEL
 
 requirements:
     build:
